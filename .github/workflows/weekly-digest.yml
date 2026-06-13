@@ -2,10 +2,12 @@ name: Weekly arXiv digest
 
 on:
   schedule:
-    # 06:00 UTC every Tuesday = 09:00 Istanbul. Adjust as you like.
-    # cron is always UTC; format is "min hour day month weekday".
+    # 06:00 UTC every Tuesday = 09:00 Istanbul.
     - cron: "0 6 * * 2"
-  workflow_dispatch: {}   # lets you trigger it by hand from the Actions tab
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   digest:
@@ -22,5 +24,13 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # optional
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python arxiv_digest.py --days 7
+
+      - name: Commit seen-papers cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen_papers.json
+          git diff --cached --quiet || git commit -m "chore: update seen papers cache [skip ci]"
+          git push
