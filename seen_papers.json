@@ -1,0 +1,44 @@
+{
+  "seen": [
+    {
+      "id": "2606.11393",
+      "date": "2026-06-13",
+      "title": "Scaling Limits for the Discretization of the Martingale Representation Theorem"
+    },
+    {
+      "id": "2606.11248",
+      "date": "2026-06-13",
+      "title": "Persistent Homology of the Planar Wiener Sausage: Brownian Scaling and a Logarithmic Expectation Law"
+    },
+    {
+      "id": "2606.08928",
+      "date": "2026-06-13",
+      "title": "The Singular Values of L\u00e9vy's Area Matrix"
+    },
+    {
+      "id": "2606.11156",
+      "date": "2026-06-13",
+      "title": "It\u00f4 maps for any-step SDEs"
+    },
+    {
+      "id": "2606.13347",
+      "date": "2026-06-13",
+      "title": "Enhanced Low-Density Region Exploration in Classifier-Guided Diffusion Models Through Modified Reverse Diffusion Sampling"
+    },
+    {
+      "id": "2306.07956",
+      "date": "2026-06-13",
+      "title": "Adaptive Monte Carlo Search for Conjecture Refutation in Graph Theory"
+    },
+    {
+      "id": "2210.02747",
+      "date": "2026-06-13",
+      "title": "Flow Matching for Generative Modeling"
+    },
+    {
+      "id": "2011.13456",
+      "date": "2026-06-13",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations"
+    }
+  ]
+}
