@@ -26,6 +26,7 @@ import datetime as dt
 import html
 import json
 import os
+import random
 import re
 import smtplib
 import sys
@@ -69,8 +70,7 @@ KEYWORDS = {
     "random matrix": 2.0, "poisson approximation": 3.0,
     # spectral graph theory
     "graph energy": 4.0, "laplacian energy": 4.5, "laplacian eigenvalue": 3.5,
-    "spectral graph": 3.0, "adjacency spectrum": 2.5, "brouwer": 3.0,
-    "graph spectra": 2.5,
+    "spectral graph": 3.0, "graph theoery": 3.0, "random graph": 3.0,
     # diffusion / generative
     "diffusion model": 3.0, "score-based": 3.0, "score matching": 3.0,
     "flow matching": 2.5, "generative model": 1.5, "stochastic interpolant": 3.0,
@@ -94,10 +94,26 @@ TITLE_WEIGHT = 3.0       # keyword hit in the title is worth this much × kw wei
 ABSTRACT_WEIGHT = 1.0    # keyword hit in the abstract
 AUTHOR_BONUS = 8.0       # any tracked author present
 
-# Selection quotas (the "mostly probability + some others" mix).
-N_PROB = 8               # papers drawn from PROB_CATEGORIES
-N_OTHER = 4              # papers drawn from everything else
+# Selection quotas.
+N_PROB = 3               # new papers drawn from PROB_CATEGORIES
+N_OTHER = 2              # new papers drawn from everything else
+N_CLASSIC = 3            # older curated papers to feature each week
 MIN_SCORE = 0.0          # drop anything at or below this score
+
+# Curated list of important older arXiv paper IDs to rotate through.
+# Each ISO week, N_CLASSIC of these are selected deterministically.
+# Add arXiv IDs (without version suffix) to grow the pool.
+CLASSIC_PAPERS = [
+    # Diffusion / Score-based generative models
+    "2011.13456",  # Song et al. (2021) — Score-Based Generative Modeling through SDEs
+    "2210.02747",  # Lipman et al. (2022) — Flow Matching for Generative Modeling
+    # Stein's method / variational inference
+    "1608.04471",  # Liu & Wang (2016) — Stein Variational Gradient Descent
+    # Spectral graph theory
+    "2306.07956",  # Vito et al. (2023) — AMCS: refuted 6 open conjectures
+    # Diffusion for PDEs
+    "2406.17763",  # Huang et al. (2024) — DiffusionPDE
+]
 
 # Fetch knobs.
 PAGE_SIZE = 100
@@ -152,6 +168,24 @@ def fetch_category(cat, cutoff):
 
     # keep only papers inside the window
     return [p for p in papers if p["published"] >= cutoff]
+
+
+def _fetch_by_id(arxiv_id):
+    """Fetch a single paper by arXiv ID. Returns a paper dict or None."""
+    params = urllib.parse.urlencode({"id_list": arxiv_id, "max_results": 1})
+    url = f"{ARXIV_API}?{params}"
+    try:
+        raw = _get(url)
+        batch = parse_atom(raw, "classic")
+        time.sleep(REQUEST_PAUSE)
+        if batch:
+            p = batch[0]
+            p["score"] = score_paper(p)
+            p["is_classic"] = True
+            return p
+    except Exception as e:                           # noqa: BLE001
+        print(f"  ! fetch_by_id failed for {arxiv_id}: {e}", file=sys.stderr)
+    return None
 
 
 def parse_atom(raw, queried_cat):
@@ -258,6 +292,22 @@ def select(papers):
     return chosen
 
 
+def select_classics():
+    """Pick N_CLASSIC papers from CLASSIC_PAPERS, rotating by ISO week."""
+    if not CLASSIC_PAPERS:
+        return []
+    week = dt.date.today().isocalendar()[1]
+    rng = random.Random(week)
+    ids = rng.sample(CLASSIC_PAPERS, min(N_CLASSIC, len(CLASSIC_PAPERS)))
+    papers = []
+    for arxiv_id in ids:
+        print(f"  fetching classic {arxiv_id}…")
+        p = _fetch_by_id(arxiv_id)
+        if p:
+            papers.append(p)
+    return papers
+
+
 # ──────────────────────────────────────────────────────────────────────────
 # Optional Claude enrichment
 # ──────────────────────────────────────────────────────────────────────────
@@ -268,7 +318,7 @@ def enrich_with_claude(papers):
         return papers
 
     listing = "\n\n".join(
-        f"[{i}] {p['title']}\n{p['summary'][:600]}"
+        f"[{i}] {'[CLASSIC] ' if p.get('is_classic') else ''}{p['title']}\n{p['summary'][:600]}"
         for i, p in enumerate(papers)
     )
     prompt = (
@@ -276,8 +326,10 @@ def enrich_with_claude(papers):
         "student focused on probability theory, with side interests in spectral "
         "graph theory, quantitative finance (pairs trading, stat-arb), and "
         "diffusion/score-based generative models.\n\n"
+        "Papers marked [CLASSIC] are featured older works. For those, note what "
+        "makes them foundational or why they remain relevant today.\n\n"
         "For each paper below, write ONE short sentence (max 25 words) on why it "
-        "might interest them, or why they can skip it. Return ONLY a JSON array "
+        "might interest them. Return ONLY a JSON array "
         "of strings, in the same order, no other text.\n\n"
         f"{listing}"
     )
@@ -316,35 +368,46 @@ def enrich_with_claude(papers):
 # Render + send
 # ──────────────────────────────────────────────────────────────────────────
 
-def render_text(papers, cutoff):
+def _paper_text_block(i, p):
+    tag = "PR" if is_probability(p) else p["queried_cat"]
+    lines = [f"{i}. [{tag}] {p['title']}"]
+    lines.append(f"   {', '.join(p['authors'][:4])}"
+                 + (" et al." if len(p["authors"]) > 4 else ""))
+    if p.get("note"):
+        lines.append(f"   → {p['note']}")
+    lines.append(f"   {p['abs_url']}")
+    lines.append("")
+    return lines
+
+
+def render_text(new_papers, classic_papers, cutoff):
     lines = [f"Weekly arXiv digest — since {cutoff.date()}", ""]
-    for i, p in enumerate(papers, 1):
-        tag = "PR" if is_probability(p) else p["queried_cat"]
-        lines.append(f"{i}. [{tag}] {p['title']}")
-        lines.append(f"   {', '.join(p['authors'][:4])}"
-                     + (" et al." if len(p["authors"]) > 4 else ""))
-        if p.get("note"):
-            lines.append(f"   → {p['note']}")
-        lines.append(f"   {p['abs_url']}")
+    lines.append("── New this week " + "─" * 43)
+    lines.append("")
+    for i, p in enumerate(new_papers, 1):
+        lines.extend(_paper_text_block(i, p))
+    if classic_papers:
+        lines.append("── Worth revisiting " + "─" * 40)
         lines.append("")
+        for i, p in enumerate(classic_papers, 1):
+            lines.extend(_paper_text_block(i, p))
     return "\n".join(lines)
 
 
-def render_html(papers, cutoff):
-    rows = []
-    for i, p in enumerate(papers, 1):
-        tag = "math.PR" if is_probability(p) else p["queried_cat"]
-        authors = html.escape(", ".join(p["authors"][:4]))
-        if len(p["authors"]) > 4:
-            authors += " et al."
-        note = ""
-        if p.get("note"):
-            note = (f'<div style="color:#444;font-size:13px;margin-top:4px">'
-                    f'→ {html.escape(p["note"])}</div>')
-        rows.append(f"""
+def _paper_html_row(i, p):
+    tag = "math.PR" if is_probability(p) else p["queried_cat"]
+    authors = html.escape(", ".join(p["authors"][:4]))
+    if len(p["authors"]) > 4:
+        authors += " et al."
+    note = ""
+    if p.get("note"):
+        note = (f'<div style="color:#444;font-size:13px;margin-top:4px">'
+                f'→ {html.escape(p["note"])}</div>')
+    label = "classic" if p.get("is_classic") else f"score {p['score']:.1f}"
+    return f"""
         <div style="margin:0 0 22px 0;padding:0 0 18px 0;border-bottom:1px solid #eee">
           <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em">
-            {i} · {html.escape(tag)} · score {p['score']:.1f}
+            {i} · {html.escape(tag)} · {label}
           </div>
           <div style="font-size:16px;font-weight:600;margin:3px 0">
             <a href="{html.escape(p['abs_url'])}" style="color:#1a1a1a;text-decoration:none">
@@ -357,7 +420,23 @@ def render_html(papers, cutoff):
             &nbsp;·&nbsp;
             <a href="{html.escape(p['pdf_url'])}" style="color:#3355cc">pdf</a>
           </div>
-        </div>""")
+        </div>"""
+
+
+def render_html(new_papers, classic_papers, cutoff):
+    new_rows = "".join(_paper_html_row(i, p) for i, p in enumerate(new_papers, 1))
+
+    classic_section = ""
+    if classic_papers:
+        classic_rows = "".join(
+            _paper_html_row(i, p) for i, p in enumerate(classic_papers, 1)
+        )
+        classic_section = f"""
+      <div style="font-size:15px;font-weight:700;margin:32px 0 16px;
+                  padding-top:24px;border-top:2px solid #e0e0e0;color:#555">
+        Worth revisiting
+      </div>
+      {classic_rows}"""
 
     return f"""<!DOCTYPE html><html><body style="margin:0;background:#fafafa">
     <div style="max-width:680px;margin:0 auto;padding:28px 24px;
@@ -365,8 +444,12 @@ def render_html(papers, cutoff):
       <div style="font-size:20px;font-weight:700;margin-bottom:4px">
         Weekly arXiv digest</div>
       <div style="font-size:13px;color:#888;margin-bottom:24px">
-        {len(papers)} papers · since {cutoff.date()}</div>
-      {''.join(rows)}
+        {len(new_papers)} new · {len(classic_papers)} classic · since {cutoff.date()}</div>
+      <div style="font-size:15px;font-weight:700;margin-bottom:16px;color:#555">
+        New this week
+      </div>
+      {new_rows}
+      {classic_section}
       <div style="font-size:11px;color:#aaa;margin-top:18px">
         Generated by arxiv_digest.py · tune your profile in CONFIG</div>
     </div></body></html>"""
@@ -411,15 +494,22 @@ def main():
         print(f"  {cat}: {len(got)} in window")
         all_papers.extend(got)
 
-    chosen = select(all_papers)
-    print(f"Selected {len(chosen)} papers "
-          f"({sum(is_probability(p) for p in chosen)} probability).")
+    chosen_new = select(all_papers)
+    print(f"Selected {len(chosen_new)} new papers "
+          f"({sum(is_probability(p) for p in chosen_new)} probability).")
 
-    chosen = enrich_with_claude(chosen)
+    print(f"Fetching {N_CLASSIC} classic papers…")
+    chosen_classics = select_classics()
+    print(f"Fetched {len(chosen_classics)} classics.")
 
-    subject = f"arXiv digest — {len(chosen)} papers ({dt.date.today():%b %d})"
-    text_body = render_text(chosen, cutoff)
-    html_body = render_html(chosen, cutoff)
+    all_chosen = enrich_with_claude(chosen_new + chosen_classics)
+    chosen_new = [p for p in all_chosen if not p.get("is_classic")]
+    chosen_classics = [p for p in all_chosen if p.get("is_classic")]
+
+    subject = (f"arXiv digest — {len(chosen_new)} new + {len(chosen_classics)} classic"
+               f" ({dt.date.today():%b %d})")
+    text_body = render_text(chosen_new, chosen_classics, cutoff)
+    html_body = render_html(chosen_new, chosen_classics, cutoff)
 
     if args.dry_run or not os.environ.get("SMTP_USER"):
         print("\n" + "=" * 60 + "\n")
