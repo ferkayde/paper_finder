@@ -4,7 +4,7 @@ on:
   schedule:
     # 06:00 UTC every Monday = 09:00 Istanbul. Adjust as you like.
     # cron is always UTC; format is "min hour day month weekday".
-    - cron: "0 6 * * 1"
+    - cron: "0 6 * * 7"
   workflow_dispatch: {}   # lets you trigger it by hand from the Actions tab
 
 jobs:
