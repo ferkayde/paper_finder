@@ -458,19 +458,19 @@ def render_html(new_papers, classic_papers, cutoff):
 def send_email(subject, text_body, html_body):
     user = os.environ["SMTP_USER"]
     password = os.environ["SMTP_PASS"]
-    to_addr = os.environ.get("MAIL_TO", user)
+    to_addrs = [a.strip() for a in os.environ.get("MAIL_TO", user).split(",") if a.strip()]
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = user
-    msg["To"] = to_addr
+    msg["To"] = ", ".join(to_addrs)
     msg.attach(MIMEText(text_body, "plain", "utf-8"))
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(user, password)
-        server.sendmail(user, [to_addr], msg.as_string())
-    print(f"  ✓ emailed {len(html_body)} bytes to {to_addr}")
+        server.sendmail(user, to_addrs, msg.as_string())
+    print(f"  ✓ emailed {len(html_body)} bytes to {', '.join(to_addrs)}")
 
 
 # ──────────────────────────────────────────────────────────────────────────
