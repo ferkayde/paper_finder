@@ -69,6 +69,66 @@
       "id": "2406.17763",
       "date": "2026-06-16",
       "title": "DiffusionPDE: Generative PDE-Solving Under Partial Observation"
+    },
+    {
+      "id": "2606.12720",
+      "date": "2026-06-16",
+      "title": "On McDiarmid's Inequality under Dependence via Approximate Tensorization of Entropy"
+    },
+    {
+      "id": "2606.16083",
+      "date": "2026-06-16",
+      "title": "Eyring-Kramers asymptotics for infinite-dimensional stochastic gradient systems"
+    },
+    {
+      "id": "2606.13615",
+      "date": "2026-06-16",
+      "title": "Data-driven subsampling rates for diffusion parameter estimation of SDEs"
+    },
+    {
+      "id": "2606.13796",
+      "date": "2026-06-16",
+      "title": "Recursively Trained Diffusion Models: Limiting Collapse Distribution and Spectral Characterization"
+    },
+    {
+      "id": "2606.16138",
+      "date": "2026-06-16",
+      "title": "Closing the Approximation Gap in Simulation-free Latent SDEs"
+    },
+    {
+      "id": "on_the_evolution_of_random_graphs",
+      "date": "2026-06-16",
+      "title": "On the Evolution of Random Graphs"
+    },
+    {
+      "id": "math/0112234",
+      "date": "2026-06-16",
+      "title": "Conformal invariance of planar loop-erased random walks and uniform spanning trees"
+    },
+    {
+      "id": "martingales_and_stochastic_integrals_in_",
+      "date": "2026-06-16",
+      "title": "Martingales and Stochastic Integrals in the Theory of Continuous Trading"
+    },
+    {
+      "id": "on_stochastic_differential_equations",
+      "date": "2026-06-16",
+      "title": "On Stochastic Differential Equations"
+    },
+    {
+      "id": "0912.0966",
+      "date": "2026-06-16",
+      "title": "Random covariance matrices: Universality of local statistics of eigenvalues"
+    },
+    {
+      "id": "1907.05600",
+      "date": "2026-06-16",
+      "title": "Generative Modeling by Estimating Gradients of the Data Distribution"
+    },
+    {
+      "id": "0906.0510",
+      "date": "2026-06-16",
+      "title": "Random matrices: Universality of local eigenvalue statistics"
     }
   ]
 }
