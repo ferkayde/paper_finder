@@ -1,0 +1,74 @@
+{
+  "seen": [
+    {
+      "id": "2606.11393",
+      "date": "2026-06-13",
+      "title": "Scaling Limits for the Discretization of the Martingale Representation Theorem"
+    },
+    {
+      "id": "2606.11248",
+      "date": "2026-06-13",
+      "title": "Persistent Homology of the Planar Wiener Sausage: Brownian Scaling and a Logarithmic Expectation Law"
+    },
+    {
+      "id": "2606.08928",
+      "date": "2026-06-13",
+      "title": "The Singular Values of L\u00e9vy's Area Matrix"
+    },
+    {
+      "id": "2606.11156",
+      "date": "2026-06-13",
+      "title": "It\u00f4 maps for any-step SDEs"
+    },
+    {
+      "id": "2606.13347",
+      "date": "2026-06-13",
+      "title": "Enhanced Low-Density Region Exploration in Classifier-Guided Diffusion Models Through Modified Reverse Diffusion Sampling"
+    },
+    {
+      "id": "2306.07956",
+      "date": "2026-06-13",
+      "title": "Adaptive Monte Carlo Search for Conjecture Refutation in Graph Theory"
+    },
+    {
+      "id": "2210.02747",
+      "date": "2026-06-13",
+      "title": "Flow Matching for Generative Modeling"
+    },
+    {
+      "id": "2011.13456",
+      "date": "2026-06-13",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations"
+    },
+    {
+      "id": "2606.16487",
+      "date": "2026-06-16",
+      "title": "Logarithmic Large Deviations for Heavy-Tailed Sums"
+    },
+    {
+      "id": "2606.11142",
+      "date": "2026-06-16",
+      "title": "Strong Approximations for Markov Chains Weakly Converging to Diffusions"
+    },
+    {
+      "id": "2606.14895",
+      "date": "2026-06-16",
+      "title": "Effective Resistances and Commute Times in Sparse Random Geometric Graphs"
+    },
+    {
+      "id": "2606.16610",
+      "date": "2026-06-16",
+      "title": "Diffusion Flow Matching: Dimension-Improved KL Bounds and Wasserstein Guarantees"
+    },
+    {
+      "id": "2606.11547",
+      "date": "2026-06-16",
+      "title": "Multiplicity of Laplacian eigenvalue 1 of a graph"
+    },
+    {
+      "id": "2406.17763",
+      "date": "2026-06-16",
+      "title": "DiffusionPDE: Generative PDE-Solving Under Partial Observation"
+    }
+  ]
+}
