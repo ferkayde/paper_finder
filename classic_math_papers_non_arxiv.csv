@@ -1,0 +1,101 @@
+No,Area,Title,Authors,Year,Venue,DOI,OpenAccess
+1,Probability theory,On the Movement of Small Particles Suspended in a Stationary Liquid Demanded by the Molecular-Kinetic Theory of Heat,A. Einstein,1905,Annalen der Physik,10.1002/andp.19053220806,public domain; widely mirrored
+2,Probability theory,Über die analytischen Methoden in der Wahrscheinlichkeitsrechnung,A. N. Kolmogorov,1931,Mathematische Annalen,10.1007/BF01457949,GDZ (open)
+3,Probability theory,Differential-Space,N. Wiener,1923,Journal of Mathematics and Physics,10.1002/sapm192321131,Wiley / mirrored
+4,Probability theory,Eine neue Herleitung des Exponentialgesetzes in der Wahrscheinlichkeitsrechnung,J. W. Lindeberg,1922,Mathematische Zeitschrift,10.1007/BF01494395,GDZ / Springer
+5,Probability theory,A Stochastic Approximation Method,"H. Robbins, S. Monro",1951,Annals of Mathematical Statistics,10.1214/aoms/1177729586,Project Euclid (open)
+6,Probability theory,On Information and Sufficiency,"S. Kullback, R. A. Leibler",1951,Annals of Mathematical Statistics,10.1214/aoms/1177729694,Project Euclid (open)
+7,Probability theory,"La prévision : ses lois logiques, ses sources subjectives",B. de Finetti,1937,Annales de l'Institut Henri Poincaré,,Numdam (open)
+8,Probability theory,The Fundamental Limit Theorems in Probability,W. Feller,1945,Bulletin of the American Mathematical Society,10.1090/S0002-9904-1945-08448-1,AMS (open)
+9,Probability theory,Regularity Properties of Certain Families of Chance Variables,J. L. Doob,1940,Transactions of the American Mathematical Society,10.1090/S0002-9947-1940-0002052-6,AMS (open)
+10,Probability theory,The Gaussian Law of Errors in the Theory of Additive Number Theoretic Functions,"P. Erdős, M. Kac",1940,American Journal of Mathematics,10.2307/2371483,JSTOR / institutional
+11,Probability theory,Distribution of Eigenvalues for Some Sets of Random Matrices,"V. A. Marchenko, L. A. Pastur",1967,Matematicheskii Sbornik,10.1070/SM1967v001n04ABEH001994,IOP / institutional
+12,Stochastic processes / SDEs,Stochastic Integral,K. Itô,1944,Proceedings of the Imperial Academy (Tokyo),10.3792/pia/1195572786,Project Euclid (open)
+13,Stochastic processes / SDEs,On Stochastic Differential Equations,K. Itô,1951,Memoirs of the American Mathematical Society,10.1090/memo/0004,AMS / institutional
+14,Stochastic processes / SDEs,On the Theory of the Brownian Motion,"G. E. Uhlenbeck, L. S. Ornstein",1930,Physical Review,10.1103/PhysRev.36.823,APS (free for older issues)
+15,Stochastic processes / SDEs,Stochastic Problems in Physics and Astronomy,S. Chandrasekhar,1943,Reviews of Modern Physics,10.1103/RevModPhys.15.1,APS (free for older issues)
+16,Stochastic processes / SDEs,On Transforming a Certain Class of Stochastic Processes by Absolutely Continuous Substitution of Measures,I. V. Girsanov,1960,Theory of Probability and Its Applications,10.1137/1105027,SIAM / institutional
+17,Stochastic processes / SDEs,Diffusion Processes in One Dimension,W. Feller,1954,Transactions of the American Mathematical Society,10.1090/S0002-9947-1954-0063607-6,AMS (open)
+18,Stochastic processes / SDEs,On Distributions of Certain Wiener Functionals (Feynman–Kac),M. Kac,1949,Transactions of the American Mathematical Society,10.1090/S0002-9947-1949-0027960-X,AMS (open)
+19,Stochastic processes / SDEs,The Brownian Movement and Stochastic Equations,J. L. Doob,1942,Annals of Mathematics,10.2307/1968873,JSTOR / institutional
+20,Stochastic processes / SDEs,Generalized Harmonic Analysis,N. Wiener,1930,Acta Mathematica,10.1007/BF02546511,Project Euclid (open)
+21,Stochastic processes / SDEs,A New Approach to Linear Filtering and Prediction Problems,R. E. Kalman,1960,Journal of Basic Engineering,10.1115/1.3662552,widely mirrored (open)
+22,Stochastic processes / SDEs,New Results in Linear Filtering and Prediction Theory,"R. E. Kalman, R. S. Bucy",1961,Journal of Basic Engineering,10.1115/1.3658902,widely mirrored
+23,Stochastic processes / SDEs,Limit Theorems for Stochastic Processes,A. V. Skorokhod,1956,Theory of Probability and Its Applications,10.1137/1101022,SIAM / institutional
+24,Stochastic processes / SDEs,A New Representation for Stochastic Integrals and Equations,R. L. Stratonovich,1966,SIAM Journal on Control,10.1137/0304028,SIAM / institutional
+25,PDEs,Über die partiellen Differenzengleichungen der mathematischen Physik,"R. Courant, K. Friedrichs, H. Lewy",1928,Mathematische Annalen,10.1007/BF01448839,GDZ (open)
+26,PDEs,Sur le mouvement d'un liquide visqueux emplissant l'espace,J. Leray,1934,Acta Mathematica,10.1007/BF02547354,Project Euclid (open)
+27,PDEs,Continuity of Solutions of Parabolic and Elliptic Equations,J. Nash,1958,American Journal of Mathematics,10.2307/2372841,JSTOR / institutional
+28,PDEs,Sulla differenziabilità e l'analiticità delle estremali degli integrali multipli regolari,E. De Giorgi,1957,Memorie Accad. Sci. Torino,,institutional / mirrored
+29,PDEs,Hypoelliptic Second Order Differential Equations,L. Hörmander,1967,Acta Mathematica,10.1007/BF02392081,Project Euclid (open)
+30,PDEs,Hyperbolic Systems of Conservation Laws II,P. D. Lax,1957,Communications on Pure and Applied Mathematics,10.1002/cpa.3160100406,Wiley / institutional
+31,PDEs,Viscosity Solutions of Hamilton–Jacobi Equations,"M. G. Crandall, P.-L. Lions",1983,Transactions of the American Mathematical Society,10.1090/S0002-9947-1983-0690039-8,AMS (open)
+32,PDEs,First Order Quasilinear Equations in Several Independent Variables,S. N. Kruzhkov,1970,Mathematics of the USSR-Sbornik,10.1070/SM1970v010n02ABEH002156,IOP / institutional
+33,PDEs,The Partial Differential Equation u_t + u u_x = mu u_xx (Hopf–Cole),E. Hopf,1950,Communications on Pure and Applied Mathematics,10.1002/cpa.3160030302,Wiley / institutional
+34,PDEs,Partial Regularity of Suitable Weak Solutions of the Navier–Stokes Equations,"L. Caffarelli, R. Kohn, L. Nirenberg",1982,Communications on Pure and Applied Mathematics,10.1002/cpa.3160350604,Wiley / institutional
+35,Graph theory,Solutio problematis ad geometriam situs pertinentis (Seven Bridges of Königsberg),L. Euler,1736,Commentarii Acad. Sci. Petropolitanae,,"Euler Archive E053 (open, public domain)"
+36,Graph theory,Über Graphen und ihre Anwendung auf Determinantentheorie und Mengenlehre,D. Kőnig,1916,Mathematische Annalen,10.1007/BF01456961,GDZ (open)
+37,Graph theory,Zur allgemeinen Kurventheorie (Menger's theorem),K. Menger,1927,Fundamenta Mathematicae,10.4064/fm-10-1-96-115,ICM / EuDML (open)
+38,Graph theory,On Representatives of Subsets (Hall's marriage theorem),P. Hall,1935,Journal of the London Mathematical Society,10.1112/jlms/s1-10.37.26,Wiley / institutional
+39,Graph theory,The Factorization of Linear Graphs,W. T. Tutte,1947,Journal of the London Mathematical Society,10.1112/jlms/s1-22.2.107,Wiley / institutional
+40,Graph theory,On a Problem of Formal Logic (Ramsey's theorem),F. P. Ramsey,1930,Proceedings of the London Mathematical Society,10.1112/plms/s2-30.1.264,Wiley / institutional
+41,Graph theory,On Random Graphs I,"P. Erdős, A. Rényi",1959,Publicationes Mathematicae Debrecen,,Rényi Institute (open)
+42,Graph theory,On the Evolution of Random Graphs,"P. Erdős, A. Rényi",1960,Publ. Math. Inst. Hungarian Acad. Sci.,,Rényi Institute (open)
+43,Graph theory,Algebraic Connectivity of Graphs,M. Fiedler,1973,Czechoslovak Mathematical Journal,10.21136/CMJ.1973.101168,dml.cz (open) [VERIFIED]
+44,Graph theory,On the Shannon Capacity of a Graph,L. Lovász,1979,IEEE Transactions on Information Theory,10.1109/TIT.1979.1055985,IEEE / institutional
+45,Graph theory,Eigenvalues and Expanders,N. Alon,1986,Combinatorica,10.1007/BF02579166,author copy (open)
+46,Graph theory,"lambda_1, Isoperimetric Inequalities for Graphs, and Superconcentrators","N. Alon, V. D. Milman",1985,"Journal of Combinatorial Theory, Series B",10.1016/0095-8956(85)90092-9,Elsevier / institutional
+47,Graph theory,A Note on Two Problems in Connexion with Graphs (Dijkstra's algorithm),E. W. Dijkstra,1959,Numerische Mathematik,10.1007/BF01386390,author archive (EWD) / open
+48,Markov chains / MCMC,Equation of State Calculations by Fast Computing Machines,"N. Metropolis, A. W. Rosenbluth, M. N. Rosenbluth, A. H. Teller, E. Teller",1953,Journal of Chemical Physics,10.1063/1.1699114,WUSTL / UMass mirrors (open) [VERIFIED]
+49,Markov chains / MCMC,Monte Carlo Sampling Methods Using Markov Chains and Their Applications,W. K. Hastings,1970,Biometrika,10.1093/biomet/57.1.97,JSTOR / institutional (mirrored)
+50,Markov chains / MCMC,"Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images","S. Geman, D. Geman",1984,IEEE Transactions on Pattern Analysis and Machine Intelligence,10.1109/TPAMI.1984.4767596,IEEE / institutional (mirrored)
+51,Markov chains / MCMC,Sampling-Based Approaches to Calculating Marginal Densities,"A. E. Gelfand, A. F. M. Smith",1990,Journal of the American Statistical Association,10.1080/01621459.1990.10476213,Taylor & Francis / institutional
+52,Markov chains / MCMC,Markov Chains for Exploring Posterior Distributions,L. Tierney,1994,Annals of Statistics,10.1214/aos/1176325750,Project Euclid (open)
+53,Markov chains / MCMC,Hybrid Monte Carlo,"S. Duane, A. D. Kennedy, B. J. Pendleton, D. Roweth",1987,Physics Letters B,10.1016/0370-2693(87)91197-X,Elsevier / institutional
+54,Markov chains / MCMC,The Monte Carlo Method,"N. Metropolis, S. Ulam",1949,Journal of the American Statistical Association,10.1080/01621459.1949.10483310,JSTOR / institutional
+55,Markov chains / MCMC,Exact Sampling with Coupled Markov Chains and Applications to Statistical Mechanics,"J. G. Propp, D. B. Wilson",1996,Random Structures and Algorithms,,author copy (open)
+56,Financial mathematics,Théorie de la spéculation,L. Bachelier,1900,Annales scientifiques de l'École Normale Supérieure,10.24033/asens.476,Numdam (open)
+57,Financial mathematics,Portfolio Selection,H. Markowitz,1952,Journal of Finance,10.1111/j.1540-6261.1952.tb01525.x,JSTOR / institutional (mirrored)
+58,Financial mathematics,Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk,W. F. Sharpe,1964,Journal of Finance,10.1111/j.1540-6261.1964.tb02865.x,JSTOR / institutional
+59,Financial mathematics,The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets,J. Lintner,1965,Review of Economics and Statistics,10.2307/1924119,JSTOR / institutional
+60,Financial mathematics,The Pricing of Options and Corporate Liabilities,"F. Black, M. Scholes",1973,Journal of Political Economy,10.1086/260062,SFU / Princeton mirrors (open) [VERIFIED]
+61,Financial mathematics,Theory of Rational Option Pricing,R. C. Merton,1973,Bell Journal of Economics and Management Science,10.2307/3003143,JSTOR / institutional (mirrored)
+62,Financial mathematics,Option Pricing: A Simplified Approach,"J. C. Cox, S. A. Ross, M. Rubinstein",1979,Journal of Financial Economics,10.1016/0304-405X(79)90015-1,Elsevier / institutional (mirrored)
+63,Financial mathematics,Martingales and Arbitrage in Multiperiod Securities Markets,"J. M. Harrison, D. M. Kreps",1979,Journal of Economic Theory,10.1016/0022-0531(79)90043-7,Elsevier / institutional
+64,Financial mathematics,Martingales and Stochastic Integrals in the Theory of Continuous Trading,"J. M. Harrison, S. R. Pliska",1981,Stochastic Processes and Their Applications,10.1016/0304-4149(81)90026-0,Elsevier (open archive)
+65,Financial mathematics,An Equilibrium Characterization of the Term Structure,O. Vasicek,1977,Journal of Financial Economics,10.1016/0304-405X(77)90016-2,Elsevier / institutional
+66,Financial mathematics,A Theory of the Term Structure of Interest Rates,"J. C. Cox, J. E. Ingersoll, S. A. Ross",1985,Econometrica,10.2307/1911242,JSTOR / institutional
+67,Financial mathematics,A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options,S. L. Heston,1993,Review of Financial Studies,10.1093/rfs/6.2.327,Oxford / institutional (mirrored)
+68,Financial mathematics,The Arbitrage Theory of Capital Asset Pricing,S. A. Ross,1976,Journal of Economic Theory,10.1016/0022-0531(76)90046-6,Elsevier / institutional
+69,Financial mathematics,Efficient Capital Markets: A Review of Theory and Empirical Work,E. F. Fama,1970,Journal of Finance,10.2307/2325486,JSTOR / institutional
+70,Financial mathematics,Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation,R. F. Engle,1982,Econometrica,10.2307/1912773,JSTOR / institutional
+71,Financial mathematics,Generalized Autoregressive Conditional Heteroskedasticity,T. Bollerslev,1986,Journal of Econometrics,10.1016/0304-4076(86)90063-1,Elsevier / institutional
+72,Machine learning,The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain,F. Rosenblatt,1958,Psychological Review,10.1037/h0042519,mirrored
+73,Machine learning,Learning Representations by Back-Propagating Errors,"D. E. Rumelhart, G. E. Hinton, R. J. Williams",1986,Nature,10.1038/323533a0,mirrored
+74,Machine learning,Neural Networks and Physical Systems with Emergent Collective Computational Abilities,J. J. Hopfield,1982,PNAS,10.1073/pnas.79.8.2554,PNAS (open)
+75,Machine learning,A Learning Algorithm for Boltzmann Machines,"D. H. Ackley, G. E. Hinton, T. J. Sejnowski",1985,Cognitive Science,10.1207/s15516709cog0901_7,Wiley (open) / mirrored
+76,Machine learning,Nearest Neighbor Pattern Classification,"T. Cover, P. Hart",1967,IEEE Transactions on Information Theory,10.1109/TIT.1967.1053964,IEEE / institutional (mirrored)
+77,Machine learning,On the Uniform Convergence of Relative Frequencies of Events to Their Probabilities,"V. N. Vapnik, A. Ya. Chervonenkis",1971,Theory of Probability and Its Applications,10.1137/1116025,SIAM / institutional
+78,Machine learning,Support-Vector Networks,"C. Cortes, V. Vapnik",1995,Machine Learning,10.1007/BF00994018,Springer (open)
+79,Machine learning,Long Short-Term Memory,"S. Hochreiter, J. Schmidhuber",1997,Neural Computation,10.1162/neco.1997.9.8.1735,mirrored
+80,Machine learning,Random Forests,L. Breiman,2001,Machine Learning,10.1023/A:1010933404324,Springer (open)
+81,Machine learning,A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting (AdaBoost),"Y. Freund, R. E. Schapire",1997,Journal of Computer and System Sciences,10.1006/jcss.1997.1504,Elsevier (open archive)
+82,Machine learning,Maximum Likelihood from Incomplete Data via the EM Algorithm,"A. P. Dempster, N. M. Laird, D. B. Rubin",1977,"Journal of the Royal Statistical Society, Series B",10.1111/j.2517-6161.1977.tb01600.x,JSTOR / institutional (mirrored)
+83,Machine learning,Regression Shrinkage and Selection via the Lasso,R. Tibshirani,1996,"Journal of the Royal Statistical Society, Series B",10.1111/j.2517-6161.1996.tb02080.x,JSTOR / institutional (mirrored)
+84,Machine learning,Induction of Decision Trees,J. R. Quinlan,1986,Machine Learning,10.1007/BF00116251,Springer (open)
+85,Machine learning,A Theory of the Learnable (PAC learning),L. G. Valiant,1984,Communications of the ACM,10.1145/1968.1972,ACM / mirrored
+86,Machine learning,Gradient-Based Learning Applied to Document Recognition,"Y. LeCun, L. Bottou, Y. Bengio, P. Haffner",1998,Proceedings of the IEEE,10.1109/5.726791,yann.lecun.com (open)
+87,Information theory / foundations,A Mathematical Theory of Communication,C. E. Shannon,1948,Bell System Technical Journal,10.1002/j.1538-7305.1948.tb01338.x,Harvard math / Internet Archive (open) [VERIFIED]
+88,Information theory / foundations,"On Computable Numbers, with an Application to the Entscheidungsproblem",A. M. Turing,1936,Proceedings of the London Mathematical Society,10.1112/plms/s2-42.1.230,mirrored (open)
+89,Information theory / foundations,Computing Machinery and Intelligence,A. M. Turing,1950,Mind,10.1093/mind/LIX.236.433,Oxford / mirrored
+90,Information theory / foundations,Error Detecting and Error Correcting Codes,R. W. Hamming,1950,Bell System Technical Journal,10.1002/j.1538-7305.1950.tb00463.x,Internet Archive (open)
+91,Information theory / foundations,Certain Topics in Telegraph Transmission Theory,H. Nyquist,1928,Transactions of the AIEE,10.1109/T-AIEE.1928.5055024,IEEE / mirrored
+92,Information theory / foundations,Three Approaches to the Quantitative Definition of Information,A. N. Kolmogorov,1965,Problems of Information Transmission,,mirrored
+93,Other mathematics,Über die Anzahl der Primzahlen unter einer gegebenen Grösse,B. Riemann,1859,Monatsberichte der Berliner Akademie,,Clay Math / public domain (open)
+94,Other mathematics,An Algorithm for the Machine Calculation of Complex Fourier Series (FFT),"J. W. Cooley, J. W. Tukey",1965,Mathematics of Computation,10.1090/S0025-5718-1965-0178586-1,AMS (open)
+95,Other mathematics,A New Polynomial-Time Algorithm for Linear Programming,N. Karmarkar,1984,Combinatorica,10.1007/BF02579150,Springer / institutional
+96,Other mathematics,Maximal Flow Through a Network,"L. R. Ford, D. R. Fulkerson",1956,Canadian Journal of Mathematics,10.4153/CJM-1956-045-5,Cambridge (open)
+97,Other mathematics,Reducibility Among Combinatorial Problems,R. M. Karp,1972,Complexity of Computer Computations (Plenum),10.1007/978-1-4684-2001-2_9,Berkeley / mirrored (open)
+98,Other mathematics,The Complexity of Theorem-Proving Procedures,S. A. Cook,1971,Proceedings of the 3rd ACM STOC,10.1145/800157.805047,ACM / mirrored
+99,Other mathematics,Characteristic Vectors of Bordered Matrices with Infinite Dimensions (semicircle law),E. P. Wigner,1955,Annals of Mathematics,10.2307/1970079,JSTOR / institutional
+100,Other mathematics,Equilibrium Points in n-Person Games,J. F. Nash,1950,PNAS,10.1073/pnas.36.1.48,PNAS (open)
