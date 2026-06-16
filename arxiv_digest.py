@@ -91,7 +91,7 @@ AUTHOR_BONUS = 8.0
 # Final selection quotas.
 N_PROB = 3               # new papers from PROB_CATEGORIES
 N_OTHER = 2              # new papers from other categories
-N_CLASSIC = 9            # curated older papers per week
+N_CLASSIC = 3            # curated older papers per week
 MIN_SCORE = 0.0
 
 # Candidate pool sizes fed to Claude (must be >= N_PROB / N_OTHER).
