@@ -39,6 +39,36 @@
       "id": "2011.13456",
       "date": "2026-06-13",
       "title": "Score-Based Generative Modeling through Stochastic Differential Equations"
+    },
+    {
+      "id": "2606.16487",
+      "date": "2026-06-16",
+      "title": "Logarithmic Large Deviations for Heavy-Tailed Sums"
+    },
+    {
+      "id": "2606.11142",
+      "date": "2026-06-16",
+      "title": "Strong Approximations for Markov Chains Weakly Converging to Diffusions"
+    },
+    {
+      "id": "2606.14895",
+      "date": "2026-06-16",
+      "title": "Effective Resistances and Commute Times in Sparse Random Geometric Graphs"
+    },
+    {
+      "id": "2606.16610",
+      "date": "2026-06-16",
+      "title": "Diffusion Flow Matching: Dimension-Improved KL Bounds and Wasserstein Guarantees"
+    },
+    {
+      "id": "2606.11547",
+      "date": "2026-06-16",
+      "title": "Multiplicity of Laplacian eigenvalue 1 of a graph"
+    },
+    {
+      "id": "2406.17763",
+      "date": "2026-06-16",
+      "title": "DiffusionPDE: Generative PDE-Solving Under Partial Observation"
     }
   ]
 }
