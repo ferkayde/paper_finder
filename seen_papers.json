@@ -154,6 +154,31 @@
       "id": "2606.18898",
       "date": "2026-06-18",
       "title": "Anomaly Detection for Sparse and Irregular Multivariate Time Series with Latent SDEs"
+    },
+    {
+      "id": "2606.17501",
+      "date": "2026-06-18",
+      "title": "Critical spectral behavior and large deviations for geometric $\u03b1$-stable processes"
+    },
+    {
+      "id": "2606.18183",
+      "date": "2026-06-18",
+      "title": "A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise"
+    },
+    {
+      "id": "2606.17472",
+      "date": "2026-06-18",
+      "title": "A Tanaka-Type Formula for Compact Sets and Equilibrium Measures of L\u00e9vy Processes"
+    },
+    {
+      "id": "2606.15725",
+      "date": "2026-06-18",
+      "title": "Score-Based Martingale Posteriors for Deep Neural Networks"
+    },
+    {
+      "id": "2606.15897",
+      "date": "2026-06-18",
+      "title": "Topological Flow Matching"
     }
   ]
 }
