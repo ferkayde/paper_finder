@@ -129,6 +129,31 @@
       "id": "0906.0510",
       "date": "2026-06-16",
       "title": "Random matrices: Universality of local eigenvalue statistics"
+    },
+    {
+      "id": "2606.17859",
+      "date": "2026-06-18",
+      "title": "Full $\u0393-$expansion for the level-two large deviation rate functionals of non-reversible one-dimensional diffusions with periodic boundary conditions"
+    },
+    {
+      "id": "2606.18866",
+      "date": "2026-06-18",
+      "title": "Cram\u00e9r-Type Moderate Deviations for Engel's Series via a Martingale Approach"
+    },
+    {
+      "id": "2606.19131",
+      "date": "2026-06-18",
+      "title": "Law of the Iterated Logarithm for $p$-Walks on $\\mathbb{Z}$"
+    },
+    {
+      "id": "2606.18071",
+      "date": "2026-06-18",
+      "title": "Volterra Generative Models"
+    },
+    {
+      "id": "2606.18898",
+      "date": "2026-06-18",
+      "title": "Anomaly Detection for Sparse and Irregular Multivariate Time Series with Latent SDEs"
     }
   ]
 }
