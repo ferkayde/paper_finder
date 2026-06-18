@@ -51,6 +51,7 @@ CATEGORIES = {
     "q-fin.MF": 0.45, # Mathematical finance
     "stat.ML": 0.4,   # Machine learning (diffusion / score-based models)
     "cs.LG": 0.35,    # Learning
+    "cs.ML": 0.35,
 }
 
 PROB_CATEGORIES = {"math.PR", "math.ST"}
