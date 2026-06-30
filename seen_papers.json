@@ -219,6 +219,46 @@
       "id": "0803.0929",
       "date": "2026-06-23",
       "title": "Graph Sparsification by Effective Resistances"
+    },
+    {
+      "id": "2606.27875",
+      "date": "2026-06-30",
+      "title": "Dickman Approximation of Randomly Weighted Sums via Stein's Method"
+    },
+    {
+      "id": "2606.28678",
+      "date": "2026-06-30",
+      "title": "Stein's method for the symmetric matrix normal distribution with an application to the approximation of the Wishart law"
+    },
+    {
+      "id": "2606.25501",
+      "date": "2026-06-30",
+      "title": "An RDT based approach to large deviations of Wishart and Wigner matrices spectral edges"
+    },
+    {
+      "id": "2606.30053",
+      "date": "2026-06-30",
+      "title": "Notes on generative modeling: flow matching, diffusion, optimal transport and Schr{\u00f6}dinger bridge"
+    },
+    {
+      "id": "2606.28228",
+      "date": "2026-06-30",
+      "title": "Disentangling Continuous-Time Latent Dynamics: Identifiability of Latent SDEs via Diffusion Shifts"
+    },
+    {
+      "id": "a_theory_of_the_term_structure_of_intere",
+      "date": "2026-06-30",
+      "title": "A Theory of the Term Structure of Interest Rates"
+    },
+    {
+      "id": "on_the_theory_of_the_brownian_motion",
+      "date": "2026-06-30",
+      "title": "On the Theory of the Brownian Motion"
+    },
+    {
+      "id": "a_decision_theoretic_generalization_of_o",
+      "date": "2026-06-30",
+      "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting"
     }
   ]
 }
