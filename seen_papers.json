@@ -259,6 +259,46 @@
       "id": "a_decision_theoretic_generalization_of_o",
       "date": "2026-06-30",
       "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting"
+    },
+    {
+      "id": "2607.03984",
+      "date": "2026-07-07",
+      "title": "On Wilks' problem: Exact recursive formulas via Stein's method for the joint moments of disjoint principal minors of Wishart random matrices"
+    },
+    {
+      "id": "2607.02489",
+      "date": "2026-07-07",
+      "title": "Almost Supermartingale Extensions of Olivier's Theorem"
+    },
+    {
+      "id": "2607.00495",
+      "date": "2026-07-07",
+      "title": "Rank deficiency of Bernoulli random matrices for growing corank"
+    },
+    {
+      "id": "2607.04442",
+      "date": "2026-07-07",
+      "title": "Tightening the Score Matching Gap for Diffusion Models"
+    },
+    {
+      "id": "2607.05381",
+      "date": "2026-07-07",
+      "title": "What Does a Discrete Diffusion Model Learn?"
+    },
+    {
+      "id": "1402.4102",
+      "date": "2026-07-07",
+      "title": "Stochastic Gradient Hamiltonian Monte Carlo"
+    },
+    {
+      "id": "math/0504589",
+      "date": "2026-07-07",
+      "title": "The phase transition in inhomogeneous random graphs"
+    },
+    {
+      "id": "hypoelliptic_second_order_differential_e",
+      "date": "2026-07-07",
+      "title": "Hypoelliptic Second Order Differential Equations"
     }
   ]
 }
