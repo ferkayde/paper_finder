@@ -299,6 +299,46 @@
       "id": "hypoelliptic_second_order_differential_e",
       "date": "2026-07-07",
       "title": "Hypoelliptic Second Order Differential Equations"
+    },
+    {
+      "id": "2607.11076",
+      "date": "2026-07-14",
+      "title": "Smoluchowski-Kramers Approximation for Stochastic Differential Equations driven by Fractional Brownian Motion"
+    },
+    {
+      "id": "2607.06242",
+      "date": "2026-07-14",
+      "title": "Exponential mixing and Freidlin--Wentzell large deviation principle for Markov cocycles"
+    },
+    {
+      "id": "2607.09547",
+      "date": "2026-07-14",
+      "title": "High-Dimensional Interpolators Can Be Fragile: Heavy Tails and High-Dimensional Large Deviations"
+    },
+    {
+      "id": "2607.09390",
+      "date": "2026-07-14",
+      "title": "The largest Laplacian eigenvalue of induced-$K_{1,r}$-free graphs"
+    },
+    {
+      "id": "2607.10700",
+      "date": "2026-07-14",
+      "title": "An Extreme Value Perspective on Learning Stress Laws"
+    },
+    {
+      "id": "on_random_graphs_i",
+      "date": "2026-07-14",
+      "title": "On Random Graphs I"
+    },
+    {
+      "id": "1404.1392",
+      "date": "2026-07-14",
+      "title": "A short survey of Stein's method"
+    },
+    {
+      "id": "1505.05770",
+      "date": "2026-07-14",
+      "title": "Variational Inference with Normalizing Flows"
     }
   ]
 }
