@@ -374,6 +374,31 @@
       "id": "the_pricing_of_options_and_corporate_lia",
       "date": "2026-07-21",
       "title": "The Pricing of Options and Corporate Liabilities"
+    },
+    {
+      "id": "2607.19176",
+      "date": "2026-07-28",
+      "title": "Exponential Convergence of the Sinkhorn Algorithm for the Schr\u00f6dinger Bridge with Regime Switching"
+    },
+    {
+      "id": "2607.22878",
+      "date": "2026-07-28",
+      "title": "Clustering of large deviations in heavy-tailed moving averages: the catastrophe principle in the long-memory case"
+    },
+    {
+      "id": "2607.20373",
+      "date": "2026-07-28",
+      "title": "Embedding martingale diffusions as binary posteriors in sequential inference"
+    },
+    {
+      "id": "2607.22199",
+      "date": "2026-07-28",
+      "title": "From Score Approximation to Distribution Approximation in Score-Based Diffusion Models"
+    },
+    {
+      "id": "2607.23543",
+      "date": "2026-07-28",
+      "title": "Graphs with maximal Laplacian eigenvalue multiplicity"
     }
   ]
 }
