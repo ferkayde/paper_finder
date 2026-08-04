@@ -399,6 +399,36 @@
       "id": "2607.23543",
       "date": "2026-07-28",
       "title": "Graphs with maximal Laplacian eigenvalue multiplicity"
+    },
+    {
+      "id": "2608.00710",
+      "date": "2026-08-04",
+      "title": "Poisson approximations of the number of fixed points in random multiset permutations"
+    },
+    {
+      "id": "2607.29330",
+      "date": "2026-08-04",
+      "title": "Large deviations for the maximum of the generalized TAP free energy"
+    },
+    {
+      "id": "2607.28742",
+      "date": "2026-08-04",
+      "title": "A Kolmogorov fourth-moment bound on Poisson chaos via a martingale core"
+    },
+    {
+      "id": "2608.02406",
+      "date": "2026-08-04",
+      "title": "A Unified Kullback--Leibler Divergence Analysis of Generative Diffusion Models via Entropy Production Rate"
+    },
+    {
+      "id": "2608.00885",
+      "date": "2026-08-04",
+      "title": "Optimal Trading of Microstructure Mean Reversion"
+    },
+    {
+      "id": "1210.2684",
+      "date": "2026-08-04",
+      "title": "Paracontrolled distributions and singular PDEs"
     }
   ]
 }
