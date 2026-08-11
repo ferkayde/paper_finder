@@ -68,8 +68,8 @@ KEYWORDS = {
     "graph energy": 4.0, "laplacian energy": 4.5, "laplacian eigenvalue": 3.5,
     "spectral graph": 3.0, "graph theoery": 3.0, "random graph": 3.0,
     # diffusion / generative
-    "diffusion model": 3.0, "score-based": 3.0, "score matching": 3.0,
-    "flow matching": 2.5, "generative model": 1.5, "stochastic interpolant": 3.0,
+    "diffusion model": 2.5, "score-based": 2.0, "score matching": 2.0,
+    "flow matching": 2.0, "generative model": 1.5, "stochastic interpolant": 3.0,
     # quant finance
     "pairs trading": 4.0, "statistical arbitrage": 3.5, "cointegration": 3.0,
     "mean reversion": 2.5, "regime-switching": 3.0, "regime switching": 3.0,
@@ -79,8 +79,7 @@ KEYWORDS = {
 AUTHORS = {
     "islak", "işlak",
     "haggstrom", "häggström",
-    "gutman", "embrechts", "goldstein",
-    "song",  # Yang Song (score-based models) — note: common surname
+    "gutman", "embrechts", "goldstein"
 }
 
 CATEGORY_BIAS = 2.0
