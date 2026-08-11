@@ -129,6 +129,346 @@
       "id": "0906.0510",
       "date": "2026-06-16",
       "title": "Random matrices: Universality of local eigenvalue statistics"
+    },
+    {
+      "id": "2606.17859",
+      "date": "2026-06-18",
+      "title": "Full $\u0393-$expansion for the level-two large deviation rate functionals of non-reversible one-dimensional diffusions with periodic boundary conditions"
+    },
+    {
+      "id": "2606.18866",
+      "date": "2026-06-18",
+      "title": "Cram\u00e9r-Type Moderate Deviations for Engel's Series via a Martingale Approach"
+    },
+    {
+      "id": "2606.19131",
+      "date": "2026-06-18",
+      "title": "Law of the Iterated Logarithm for $p$-Walks on $\\mathbb{Z}$"
+    },
+    {
+      "id": "2606.18071",
+      "date": "2026-06-18",
+      "title": "Volterra Generative Models"
+    },
+    {
+      "id": "2606.18898",
+      "date": "2026-06-18",
+      "title": "Anomaly Detection for Sparse and Irregular Multivariate Time Series with Latent SDEs"
+    },
+    {
+      "id": "2606.17501",
+      "date": "2026-06-18",
+      "title": "Critical spectral behavior and large deviations for geometric $\u03b1$-stable processes"
+    },
+    {
+      "id": "2606.18183",
+      "date": "2026-06-18",
+      "title": "A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise"
+    },
+    {
+      "id": "2606.17472",
+      "date": "2026-06-18",
+      "title": "A Tanaka-Type Formula for Compact Sets and Equilibrium Measures of L\u00e9vy Processes"
+    },
+    {
+      "id": "2606.15725",
+      "date": "2026-06-18",
+      "title": "Score-Based Martingale Posteriors for Deep Neural Networks"
+    },
+    {
+      "id": "2606.15897",
+      "date": "2026-06-18",
+      "title": "Topological Flow Matching"
+    },
+    {
+      "id": "2606.22960",
+      "date": "2026-06-23",
+      "title": "Broadcasting on Random Trees: Martingale Methods and Error Bounds"
+    },
+    {
+      "id": "2606.23553",
+      "date": "2026-06-23",
+      "title": "Skewness tunes the small-drift record rate of random walks and L\u00e9vy flights"
+    },
+    {
+      "id": "2606.23025",
+      "date": "2026-06-23",
+      "title": "Spectral-capacitary bounds for homological recovery from reflected Brownian trajectories"
+    },
+    {
+      "id": "2606.21233",
+      "date": "2026-06-23",
+      "title": "Upper Bounds for the Largest Laplacian Eigenvalue of Simplicial Complexes"
+    },
+    {
+      "id": "2606.20977",
+      "date": "2026-06-23",
+      "title": "The Mathematics of Modeling the Future"
+    },
+    {
+      "id": "1802.03042",
+      "date": "2026-06-23",
+      "title": "Deep Hedging"
+    },
+    {
+      "id": "a_closed_form_solution_for_options_with_",
+      "date": "2026-06-23",
+      "title": "A Closed-Form Solution for Options with Stochastic Volatility"
+    },
+    {
+      "id": "0803.0929",
+      "date": "2026-06-23",
+      "title": "Graph Sparsification by Effective Resistances"
+    },
+    {
+      "id": "2606.27875",
+      "date": "2026-06-30",
+      "title": "Dickman Approximation of Randomly Weighted Sums via Stein's Method"
+    },
+    {
+      "id": "2606.28678",
+      "date": "2026-06-30",
+      "title": "Stein's method for the symmetric matrix normal distribution with an application to the approximation of the Wishart law"
+    },
+    {
+      "id": "2606.25501",
+      "date": "2026-06-30",
+      "title": "An RDT based approach to large deviations of Wishart and Wigner matrices spectral edges"
+    },
+    {
+      "id": "2606.30053",
+      "date": "2026-06-30",
+      "title": "Notes on generative modeling: flow matching, diffusion, optimal transport and Schr{\u00f6}dinger bridge"
+    },
+    {
+      "id": "2606.28228",
+      "date": "2026-06-30",
+      "title": "Disentangling Continuous-Time Latent Dynamics: Identifiability of Latent SDEs via Diffusion Shifts"
+    },
+    {
+      "id": "a_theory_of_the_term_structure_of_intere",
+      "date": "2026-06-30",
+      "title": "A Theory of the Term Structure of Interest Rates"
+    },
+    {
+      "id": "on_the_theory_of_the_brownian_motion",
+      "date": "2026-06-30",
+      "title": "On the Theory of the Brownian Motion"
+    },
+    {
+      "id": "a_decision_theoretic_generalization_of_o",
+      "date": "2026-06-30",
+      "title": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting"
+    },
+    {
+      "id": "2607.03984",
+      "date": "2026-07-07",
+      "title": "On Wilks' problem: Exact recursive formulas via Stein's method for the joint moments of disjoint principal minors of Wishart random matrices"
+    },
+    {
+      "id": "2607.02489",
+      "date": "2026-07-07",
+      "title": "Almost Supermartingale Extensions of Olivier's Theorem"
+    },
+    {
+      "id": "2607.00495",
+      "date": "2026-07-07",
+      "title": "Rank deficiency of Bernoulli random matrices for growing corank"
+    },
+    {
+      "id": "2607.04442",
+      "date": "2026-07-07",
+      "title": "Tightening the Score Matching Gap for Diffusion Models"
+    },
+    {
+      "id": "2607.05381",
+      "date": "2026-07-07",
+      "title": "What Does a Discrete Diffusion Model Learn?"
+    },
+    {
+      "id": "1402.4102",
+      "date": "2026-07-07",
+      "title": "Stochastic Gradient Hamiltonian Monte Carlo"
+    },
+    {
+      "id": "math/0504589",
+      "date": "2026-07-07",
+      "title": "The phase transition in inhomogeneous random graphs"
+    },
+    {
+      "id": "hypoelliptic_second_order_differential_e",
+      "date": "2026-07-07",
+      "title": "Hypoelliptic Second Order Differential Equations"
+    },
+    {
+      "id": "2607.11076",
+      "date": "2026-07-14",
+      "title": "Smoluchowski-Kramers Approximation for Stochastic Differential Equations driven by Fractional Brownian Motion"
+    },
+    {
+      "id": "2607.06242",
+      "date": "2026-07-14",
+      "title": "Exponential mixing and Freidlin--Wentzell large deviation principle for Markov cocycles"
+    },
+    {
+      "id": "2607.09547",
+      "date": "2026-07-14",
+      "title": "High-Dimensional Interpolators Can Be Fragile: Heavy Tails and High-Dimensional Large Deviations"
+    },
+    {
+      "id": "2607.09390",
+      "date": "2026-07-14",
+      "title": "The largest Laplacian eigenvalue of induced-$K_{1,r}$-free graphs"
+    },
+    {
+      "id": "2607.10700",
+      "date": "2026-07-14",
+      "title": "An Extreme Value Perspective on Learning Stress Laws"
+    },
+    {
+      "id": "on_random_graphs_i",
+      "date": "2026-07-14",
+      "title": "On Random Graphs I"
+    },
+    {
+      "id": "1404.1392",
+      "date": "2026-07-14",
+      "title": "A short survey of Stein's method"
+    },
+    {
+      "id": "1505.05770",
+      "date": "2026-07-14",
+      "title": "Variational Inference with Normalizing Flows"
+    },
+    {
+      "id": "2607.17048",
+      "date": "2026-07-21",
+      "title": "Concentration Inequalities for Incomplete U-statistics over Arbitrary Sampling Graphs"
+    },
+    {
+      "id": "2607.15872",
+      "date": "2026-07-21",
+      "title": "Existence of $q$-Bass martingales in the semidiscrete setting"
+    },
+    {
+      "id": "2607.17192",
+      "date": "2026-07-21",
+      "title": "Geometric Regime--Switching Diffusions on Stratified Riemannian Spaces with an Application to Covariance Matrices"
+    },
+    {
+      "id": "2607.15598",
+      "date": "2026-07-21",
+      "title": "Edge complexity of graphs"
+    },
+    {
+      "id": "2607.17293",
+      "date": "2026-07-21",
+      "title": "Characterizing the equality case in Brouwer's inequality for Laplacian eigenvalues"
+    },
+    {
+      "id": "2209.15571",
+      "date": "2026-07-21",
+      "title": "Building Normalizing Flows with Stochastic Interpolants"
+    },
+    {
+      "id": "the_pricing_of_options_and_corporate_lia",
+      "date": "2026-07-21",
+      "title": "The Pricing of Options and Corporate Liabilities"
+    },
+    {
+      "id": "2607.19176",
+      "date": "2026-07-28",
+      "title": "Exponential Convergence of the Sinkhorn Algorithm for the Schr\u00f6dinger Bridge with Regime Switching"
+    },
+    {
+      "id": "2607.22878",
+      "date": "2026-07-28",
+      "title": "Clustering of large deviations in heavy-tailed moving averages: the catastrophe principle in the long-memory case"
+    },
+    {
+      "id": "2607.20373",
+      "date": "2026-07-28",
+      "title": "Embedding martingale diffusions as binary posteriors in sequential inference"
+    },
+    {
+      "id": "2607.22199",
+      "date": "2026-07-28",
+      "title": "From Score Approximation to Distribution Approximation in Score-Based Diffusion Models"
+    },
+    {
+      "id": "2607.23543",
+      "date": "2026-07-28",
+      "title": "Graphs with maximal Laplacian eigenvalue multiplicity"
+    },
+    {
+      "id": "2608.00710",
+      "date": "2026-08-04",
+      "title": "Poisson approximations of the number of fixed points in random multiset permutations"
+    },
+    {
+      "id": "2607.29330",
+      "date": "2026-08-04",
+      "title": "Large deviations for the maximum of the generalized TAP free energy"
+    },
+    {
+      "id": "2607.28742",
+      "date": "2026-08-04",
+      "title": "A Kolmogorov fourth-moment bound on Poisson chaos via a martingale core"
+    },
+    {
+      "id": "2608.02406",
+      "date": "2026-08-04",
+      "title": "A Unified Kullback--Leibler Divergence Analysis of Generative Diffusion Models via Entropy Production Rate"
+    },
+    {
+      "id": "2608.00885",
+      "date": "2026-08-04",
+      "title": "Optimal Trading of Microstructure Mean Reversion"
+    },
+    {
+      "id": "1210.2684",
+      "date": "2026-08-04",
+      "title": "Paracontrolled distributions and singular PDEs"
+    },
+    {
+      "id": "2608.04531",
+      "date": "2026-08-11",
+      "title": "Discretization and Statistical Consistency of Functional Flow Matching"
+    },
+    {
+      "id": "2608.05039",
+      "date": "2026-08-11",
+      "title": "A large deviation principle for a class of weighted means of random variables which converges weakly to the Dickman distribution"
+    },
+    {
+      "id": "2608.05357",
+      "date": "2026-08-11",
+      "title": "High-Frequency Exponential-Utility Maximization under Fractional Brownian Motion"
+    },
+    {
+      "id": "2608.03925",
+      "date": "2026-08-11",
+      "title": "Option Pricing with Time-Changed Fractional Brownian Motion: A Fractional Variance Gamma Model"
+    },
+    {
+      "id": "2608.08770",
+      "date": "2026-08-11",
+      "title": "A Mean-Field Framework for Inference-Time Distributional Control of Diffusion Models"
+    },
+    {
+      "id": "monte_carlo_sampling_methods_using_marko",
+      "date": "2026-08-11",
+      "title": "Monte Carlo Sampling Methods Using Markov Chains and Their Applications"
+    },
+    {
+      "id": "2208.02492",
+      "date": "2026-08-11",
+      "title": "An invariance principle for the 1D KPZ equation"
+    },
+    {
+      "id": "martingales_and_arbitrage_in_multiperiod",
+      "date": "2026-08-11",
+      "title": "Martingales and Arbitrage in Multiperiod Securities Markets"
     }
   ]
 }
