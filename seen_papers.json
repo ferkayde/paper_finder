@@ -509,6 +509,31 @@
       "id": "stochastic_relaxation__gibbs_distributio",
       "date": "2026-08-18",
       "title": "Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images"
+    },
+    {
+      "id": "2608.16256",
+      "date": "2026-08-18",
+      "title": "Error Distribution of the Local Linearization Method for Stochastic Differential Equations with Additive Brownian Noise"
+    },
+    {
+      "id": "2608.11084",
+      "date": "2026-08-18",
+      "title": "Sharp Frobenius-Norm Concentration for Sample Moment Tensors"
+    },
+    {
+      "id": "2608.16144",
+      "date": "2026-08-18",
+      "title": "Central limit theorem in R\u00e9nyi divergence for lattice random variables"
+    },
+    {
+      "id": "2608.14430",
+      "date": "2026-08-18",
+      "title": "Designing Reinforcement Learning for Diffusion Models: A Unified Path-Space View"
+    },
+    {
+      "id": "2608.12438",
+      "date": "2026-08-18",
+      "title": "Unifying Generative Models with Path Integrals"
     }
   ]
 }
