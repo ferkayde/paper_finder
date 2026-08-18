@@ -469,6 +469,46 @@
       "id": "martingales_and_arbitrage_in_multiperiod",
       "date": "2026-08-11",
       "title": "Martingales and Arbitrage in Multiperiod Securities Markets"
+    },
+    {
+      "id": "2608.15874",
+      "date": "2026-08-18",
+      "title": "Self-normalised Bennett inequalities for Hilbert-valued martingales"
+    },
+    {
+      "id": "2608.10944",
+      "date": "2026-08-18",
+      "title": "Central limit theory for serial tail dependence estimators in heavy-tailed long memory linear time series"
+    },
+    {
+      "id": "2608.12242",
+      "date": "2026-08-18",
+      "title": "Sharp Berry-Esseen Bounds for the Log Determinant of a Gaussian Sample Correlation Matrix"
+    },
+    {
+      "id": "2608.13096",
+      "date": "2026-08-18",
+      "title": "FlowLOB: Efficient and Controllable Limit Order Book Generation with Flow Matching"
+    },
+    {
+      "id": "2608.16676",
+      "date": "2026-08-18",
+      "title": "Nearly permanental cospectral graphs"
+    },
+    {
+      "id": "limit_theorems_for_stochastic_processes",
+      "date": "2026-08-18",
+      "title": "Limit Theorems for Stochastic Processes"
+    },
+    {
+      "id": "stochastic_integral",
+      "date": "2026-08-18",
+      "title": "Stochastic Integral"
+    },
+    {
+      "id": "stochastic_relaxation__gibbs_distributio",
+      "date": "2026-08-18",
+      "title": "Stochastic Relaxation, Gibbs Distributions, and the Bayesian Restoration of Images"
     }
   ]
 }
