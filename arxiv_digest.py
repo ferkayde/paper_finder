@@ -66,8 +66,8 @@ KEYWORDS = {
     "markov chain": 2.0, "mixing time": 2.5, "random walk": 2.0,
     "random matrix": 2.0, "poisson approximation": 3.0,
     # spectral graph theory
-    "graph energy": 4.0, "laplacian energy": 4.5, "laplacian eigenvalue": 3.5,
-    "spectral graph": 3.0, "graph theoery": 3.0, "random graph": 3.0,
+    "graph energy": 2.0, "laplacian energy": 1.5, "laplacian eigenvalue": 1.5,
+    "spectral graph": 2.0, "graph theoery": 3.0, "random graph": 3.0,
     # diffusion / generative
     "diffusion model": 2.5, "score-based": 2.0, "score matching": 2.0,
     "flow matching": 2.0, "generative model": 1.5, "stochastic interpolant": 3.0,
@@ -89,9 +89,9 @@ ABSTRACT_WEIGHT = 1.0
 AUTHOR_BONUS = 8.0
 
 # Final selection quotas.
-N_PROB = 3               # new papers from PROB_CATEGORIES
+N_PROB = 3              # new papers from PROB_CATEGORIES
 N_OTHER = 2              # new papers from other categories
-N_CLASSIC = 3            # curated older papers per week
+N_CLASSIC = 1            # curated older papers per week
 MIN_SCORE = 0.0
 
 # Candidate pool sizes fed to Claude (must be >= N_PROB / N_OTHER).
