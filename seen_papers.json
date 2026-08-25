@@ -534,6 +534,31 @@
       "id": "2608.12438",
       "date": "2026-08-18",
       "title": "Unifying Generative Models with Path Integrals"
+    },
+    {
+      "id": "2608.19753",
+      "date": "2026-08-25",
+      "title": "Uniform large deviation principles for the stochastic heat equation over unbounded sets of initial data"
+    },
+    {
+      "id": "2608.20337",
+      "date": "2026-08-25",
+      "title": "Information on trajectories: martingales and random times"
+    },
+    {
+      "id": "2608.23401",
+      "date": "2026-08-25",
+      "title": "Extreme values and logarithm laws for toral translations"
+    },
+    {
+      "id": "2608.18237",
+      "date": "2026-08-25",
+      "title": "Sobolev Regularized Score Difference Estimation in Diffusion Models"
+    },
+    {
+      "id": "2608.21888",
+      "date": "2026-08-25",
+      "title": "Short-horizon mean reversion in cryptocurrency markets: a matched cross-market measurement"
     }
   ]
 }
