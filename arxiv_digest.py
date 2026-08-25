@@ -71,6 +71,8 @@ KEYWORDS = {
     # diffusion / generative
     "diffusion model": 2.5, "score-based": 2.0, "score matching": 2.0,
     "flow matching": 2.0, "generative model": 1.5, "stochastic interpolant": 3.0,
+    # geometric deep learning
+    "geometric deep learning": 2.5, "geometry": 1.0,
     # quant finance
     "pairs trading": 4.0, "statistical arbitrage": 3.5, "cointegration": 3.0,
     "mean reversion": 2.5, "regime-switching": 3.0, "regime switching": 3.0,
@@ -80,7 +82,14 @@ KEYWORDS = {
 AUTHORS = {
     "islak", "işlak",
     "haggstrom", "häggström",
-    "gutman", "embrechts", "goldstein"
+    "gutman", "embrechts", "goldstein",
+    # geometric deep learning
+    "birdal", "bose",
+    # probability in Turkey circle
+    "kuzgun", "unel", "ünel", "simsekli", "şimşekli", "melotti", "monteil",
+    # probability faculty at FU/HU/TU Berlin
+    "perkowski", "djurdjevac", "follmer", "föllmer", "becherer", "imkeller",
+    "koenig", "könig", "scheutzow", "deuschel", "friz", "gess", "stannat",
 }
 
 CATEGORY_BIAS = 2.0
@@ -153,6 +162,9 @@ CLASSIC_PAPERS = [
     "2206.00364",    # Karras et al. (2022) — Elucidating the Design Space of Diffusion Models (EDM)
     "2209.15571",    # Albergo & Vanden-Eijnden (2022) — Stochastic Interpolants
     "2210.02747",    # Lipman et al. (2022) — Flow Matching for Generative Modeling
+    # ── Geometric deep learning ─────────────────────────────────────────────
+    "1611.08097",    # Bronstein, Bruna, LeCun, Szlam, Vandergheynst (2016) — Geometric Deep
+                      # Learning: Going beyond Euclidean data (founding survey of the field)
     # ── Diffusion for PDEs ────────────────────────────────────────────────
     "2406.17763",    # Huang et al. (2024) — DiffusionPDE
     # ── Rough paths / stochastic volatility ───────────────────────────────
