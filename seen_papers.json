@@ -464,6 +464,31 @@
       "id": "2609.09473",
       "date": "2026-09-15",
       "title": "Mode Coverage in Normalizing Flow Boltzmann Generators via Log-Ratio Variation"
+    },
+    {
+      "id": "2609.13961",
+      "date": "2026-09-15",
+      "title": "Yet another asymptotic formula for implied volatility"
+    },
+    {
+      "id": "2609.12666",
+      "date": "2026-09-15",
+      "title": "Exact calibration of structural models via time-change"
+    },
+    {
+      "id": "2609.14212",
+      "date": "2026-09-15",
+      "title": "Gaussian Normalized Coordinates and Risk-Neutral CDF Deformations"
+    },
+    {
+      "id": "2609.09470",
+      "date": "2026-09-15",
+      "title": "Geometric and Arithmetic Likelihood Aggregation for Diffusions with Heterogeneous Volatility"
+    },
+    {
+      "id": "2609.13715",
+      "date": "2026-09-15",
+      "title": "Event-Time Order-Flow Memory, Operational-Time Impact, and Subordinated Market Observables"
     }
   ]
 }
