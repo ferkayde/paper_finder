@@ -1,146 +1,6 @@
 {
   "seen": [
     {
-      "id": "2606.16487",
-      "date": "2026-06-16",
-      "title": "Logarithmic Large Deviations for Heavy-Tailed Sums"
-    },
-    {
-      "id": "2606.11142",
-      "date": "2026-06-16",
-      "title": "Strong Approximations for Markov Chains Weakly Converging to Diffusions"
-    },
-    {
-      "id": "2606.14895",
-      "date": "2026-06-16",
-      "title": "Effective Resistances and Commute Times in Sparse Random Geometric Graphs"
-    },
-    {
-      "id": "2606.16610",
-      "date": "2026-06-16",
-      "title": "Diffusion Flow Matching: Dimension-Improved KL Bounds and Wasserstein Guarantees"
-    },
-    {
-      "id": "2606.11547",
-      "date": "2026-06-16",
-      "title": "Multiplicity of Laplacian eigenvalue 1 of a graph"
-    },
-    {
-      "id": "2406.17763",
-      "date": "2026-06-16",
-      "title": "DiffusionPDE: Generative PDE-Solving Under Partial Observation"
-    },
-    {
-      "id": "2606.12720",
-      "date": "2026-06-16",
-      "title": "On McDiarmid's Inequality under Dependence via Approximate Tensorization of Entropy"
-    },
-    {
-      "id": "2606.16083",
-      "date": "2026-06-16",
-      "title": "Eyring-Kramers asymptotics for infinite-dimensional stochastic gradient systems"
-    },
-    {
-      "id": "2606.13615",
-      "date": "2026-06-16",
-      "title": "Data-driven subsampling rates for diffusion parameter estimation of SDEs"
-    },
-    {
-      "id": "2606.13796",
-      "date": "2026-06-16",
-      "title": "Recursively Trained Diffusion Models: Limiting Collapse Distribution and Spectral Characterization"
-    },
-    {
-      "id": "2606.16138",
-      "date": "2026-06-16",
-      "title": "Closing the Approximation Gap in Simulation-free Latent SDEs"
-    },
-    {
-      "id": "on_the_evolution_of_random_graphs",
-      "date": "2026-06-16",
-      "title": "On the Evolution of Random Graphs"
-    },
-    {
-      "id": "math/0112234",
-      "date": "2026-06-16",
-      "title": "Conformal invariance of planar loop-erased random walks and uniform spanning trees"
-    },
-    {
-      "id": "martingales_and_stochastic_integrals_in_",
-      "date": "2026-06-16",
-      "title": "Martingales and Stochastic Integrals in the Theory of Continuous Trading"
-    },
-    {
-      "id": "on_stochastic_differential_equations",
-      "date": "2026-06-16",
-      "title": "On Stochastic Differential Equations"
-    },
-    {
-      "id": "0912.0966",
-      "date": "2026-06-16",
-      "title": "Random covariance matrices: Universality of local statistics of eigenvalues"
-    },
-    {
-      "id": "1907.05600",
-      "date": "2026-06-16",
-      "title": "Generative Modeling by Estimating Gradients of the Data Distribution"
-    },
-    {
-      "id": "0906.0510",
-      "date": "2026-06-16",
-      "title": "Random matrices: Universality of local eigenvalue statistics"
-    },
-    {
-      "id": "2606.17859",
-      "date": "2026-06-18",
-      "title": "Full $\u0393-$expansion for the level-two large deviation rate functionals of non-reversible one-dimensional diffusions with periodic boundary conditions"
-    },
-    {
-      "id": "2606.18866",
-      "date": "2026-06-18",
-      "title": "Cram\u00e9r-Type Moderate Deviations for Engel's Series via a Martingale Approach"
-    },
-    {
-      "id": "2606.19131",
-      "date": "2026-06-18",
-      "title": "Law of the Iterated Logarithm for $p$-Walks on $\\mathbb{Z}$"
-    },
-    {
-      "id": "2606.18071",
-      "date": "2026-06-18",
-      "title": "Volterra Generative Models"
-    },
-    {
-      "id": "2606.18898",
-      "date": "2026-06-18",
-      "title": "Anomaly Detection for Sparse and Irregular Multivariate Time Series with Latent SDEs"
-    },
-    {
-      "id": "2606.17501",
-      "date": "2026-06-18",
-      "title": "Critical spectral behavior and large deviations for geometric $\u03b1$-stable processes"
-    },
-    {
-      "id": "2606.18183",
-      "date": "2026-06-18",
-      "title": "A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise"
-    },
-    {
-      "id": "2606.17472",
-      "date": "2026-06-18",
-      "title": "A Tanaka-Type Formula for Compact Sets and Equilibrium Measures of L\u00e9vy Processes"
-    },
-    {
-      "id": "2606.15725",
-      "date": "2026-06-18",
-      "title": "Score-Based Martingale Posteriors for Deep Neural Networks"
-    },
-    {
-      "id": "2606.15897",
-      "date": "2026-06-18",
-      "title": "Topological Flow Matching"
-    },
-    {
       "id": "2606.22960",
       "date": "2026-06-23",
       "title": "Broadcasting on Random Trees: Martingale Methods and Error Bounds"
@@ -579,6 +439,31 @@
       "id": "learning_representations_by_back_propaga",
       "date": "2026-09-08",
       "title": "Learning Representations by Back-Propagating Errors"
+    },
+    {
+      "id": "2609.09480",
+      "date": "2026-09-15",
+      "title": "Gaussian Approximation for Multivariate Martingale Sums from Uniformly Ergodic Markov Chains"
+    },
+    {
+      "id": "2609.09436",
+      "date": "2026-09-15",
+      "title": "MiNCE: Nonparametric, Strongly Consistent Confidence Envelopes for Band-Limited Functions and their Smoothed Spectra"
+    },
+    {
+      "id": "2609.08564",
+      "date": "2026-09-15",
+      "title": "Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff"
+    },
+    {
+      "id": "2609.08981",
+      "date": "2026-09-15",
+      "title": "Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling"
+    },
+    {
+      "id": "2609.09473",
+      "date": "2026-09-15",
+      "title": "Mode Coverage in Normalizing Flow Boltzmann Generators via Log-Ratio Variation"
     }
   ]
 }
