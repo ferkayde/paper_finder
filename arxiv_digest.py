@@ -812,21 +812,31 @@ def _make_classic_from_dict(d):
     }
 
 
-def _fetch_by_id(arxiv_id):
-    """Fetch a single paper by arXiv ID. Returns a paper dict or None."""
+def _fetch_by_id(arxiv_id, retries=1):
+    """Fetch a single paper by arXiv ID. Returns a paper dict or None.
+
+    Retries once after a longer pause on failure (arXiv rate-limiting shows up
+    as transient 429/403/406 errors); returns None if still unavailable so the
+    caller can fall back to a different classic.
+    """
     params = urllib.parse.urlencode({"id_list": arxiv_id, "max_results": 1})
     url = f"{ARXIV_API}?{params}"
-    try:
-        raw = _get(url)
-        batch = parse_atom(raw, "classic")
-        time.sleep(REQUEST_PAUSE)
-        if batch:
-            p = batch[0]
-            p["score"] = score_paper(p)
-            p["is_classic"] = True
-            return p
-    except Exception as e:                           # noqa: BLE001
-        print(f"  ! fetch_by_id failed for {arxiv_id}: {e}", file=sys.stderr)
+    for attempt in range(retries + 1):
+        try:
+            raw = _get(url)
+            batch = parse_atom(raw, "classic")
+            time.sleep(REQUEST_PAUSE)
+            if batch:
+                p = batch[0]
+                p["score"] = score_paper(p)
+                p["is_classic"] = True
+                return p
+            return None
+        except Exception as e:                       # noqa: BLE001
+            print(f"  ! fetch_by_id failed for {arxiv_id} "
+                  f"(attempt {attempt + 1}/{retries + 1}): {e}", file=sys.stderr)
+            if attempt < retries:
+                time.sleep(REQUEST_PAUSE * 3)
     return None
 
 
@@ -1000,15 +1010,22 @@ def select_classics():
     """Pick N_CLASSIC papers from CLASSIC_PAPERS, rotating by ISO week.
 
     Each entry is either an arXiv ID string (fetched live) or a dict with
-    pre-filled metadata for non-arXiv papers.
+    pre-filled metadata for non-arXiv papers. Walks the week's deterministic
+    shuffle of the full pool and keeps trying subsequent entries until
+    N_CLASSIC succeed, so a single failed live fetch (arXiv rate-limiting,
+    a stale id, ...) doesn't zero out the week — it just falls through to the
+    next pick in the same order.
     """
     if not CLASSIC_PAPERS:
         return []
     week = dt.date.today().isocalendar()[1]
     rng = random.Random(week)
-    entries = rng.sample(CLASSIC_PAPERS, min(N_CLASSIC, len(CLASSIC_PAPERS)))
+    order = rng.sample(CLASSIC_PAPERS, len(CLASSIC_PAPERS))
+
     papers = []
-    for entry in entries:
+    for entry in order:
+        if len(papers) >= N_CLASSIC:
+            break
         if isinstance(entry, str):
             print(f"  fetching classic {entry}…")
             p = _fetch_by_id(entry)
@@ -1016,6 +1033,9 @@ def select_classics():
             p = _make_classic_from_dict(entry)
         if p:
             papers.append(p)
+        else:
+            print(f"  ! classic {entry!r} unavailable, falling back to next pick",
+                  file=sys.stderr)
     return papers
 
 
