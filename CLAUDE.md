@@ -68,11 +68,14 @@ All logic lives in `arxiv_digest.py`, run top to bottom by `main()`:
    highest score), drops anything at or below `MIN_SCORE` or already in
    `seen_ids`, splits into probability vs. other, and caps each pool at
    `CANDIDATE_PROB` (20) / `CANDIDATE_OTHER` (10) candidates.
-6. `select_classics()` — samples `N_CLASSIC` (1) entries from `CLASSIC_PAPERS`,
-   seeded by ISO week number (so the pick is stable within a week, rotates
-   next week). Entries are either an arXiv ID (fetched live via
-   `_fetch_by_id`) or a hand-filled dict for pre-arXiv papers
-   (`_make_classic_from_dict`).
+6. `select_classics()` — walks a full deterministic shuffle of `CLASSIC_PAPERS`
+   (seeded by ISO week number, so the order is stable within a week and
+   rotates next week) and keeps trying entries in that order until `N_CLASSIC`
+   (1) succeed. Entries are either an arXiv ID (fetched live via
+   `_fetch_by_id`, which retries once on failure) or a hand-filled dict for
+   pre-arXiv papers (`_make_classic_from_dict`, no network needed). A failed
+   live fetch falls through to the next entry instead of yielding fewer
+   classics — see Known limitations for the outage this was added for.
 7. `claude_select_and_enrich(prob_pool, other_pool, classic_papers, recent_titles)`
    — if `ANTHROPIC_API_KEY` is set, one batched call to the Messages API asks
    Claude to *pick* exactly `N_PROB` + `N_OTHER` papers from the candidate
@@ -141,7 +144,16 @@ repo (see recent commit history: `chore: update seen papers cache`).
   stop appearing.
 - `select_classics()` reuses the same `random.Random(week)` seed across runs
   within a week, so re-running the Action manually mid-week reproduces the
-  same classic pick (not a new random one) unless `CLASSIC_PAPERS` changed.
+  same classic order (not a new random one) unless `CLASSIC_PAPERS` changed.
+- **arXiv has been intermittently rate-limiting/blocking the GitHub-hosted
+  runner's IP** (`429 Too Many Requests` on 2026-09-15, `406 Not Acceptable`
+  on 2026-09-22 — different codes each time, consistent with anti-scraper
+  measures against shared CI IP ranges rather than a one-off blip). This can
+  still fail an entire category fetch or the live classic-id fetch; the
+  classic pick now retries once and falls back through the week's shuffle
+  (see pipeline step 6) so a transient block no longer zeroes out that week's
+  curated pick, but a fetch_category() failure still just yields fewer
+  candidate papers for that category with no retry.
 
 ## Roadmap (in priority order)
 
