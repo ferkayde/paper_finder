@@ -474,6 +474,36 @@
       "id": "2609.24117",
       "date": "2026-09-22",
       "title": "PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems"
+    },
+    {
+      "id": "2609.24740",
+      "date": "2026-09-22",
+      "title": "Sticky Brownian Motion with a Locally Finite Atomic Sticky Measure"
+    },
+    {
+      "id": "2609.23098",
+      "date": "2026-09-22",
+      "title": "A short operator proof of Hoeffding inequalities for Markov chains"
+    },
+    {
+      "id": "2609.22499",
+      "date": "2026-09-22",
+      "title": "Conditional Stable Laws and Rare-Event Limits for Absorbing Markov Chains"
+    },
+    {
+      "id": "2609.23383",
+      "date": "2026-09-22",
+      "title": "Bayesian Filtering in Physical Systems via Test-time Trained Flow Matching"
+    },
+    {
+      "id": "2609.21232",
+      "date": "2026-09-22",
+      "title": "Stochastic Mortality Model with Fractional L\u00e9vy Dynamics"
+    },
+    {
+      "id": "2006.11239",
+      "date": "2026-09-22",
+      "title": "Denoising Diffusion Probabilistic Models"
     }
   ]
 }
