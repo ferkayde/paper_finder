@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "id": "2606.22960",
-      "date": "2026-06-23",
-      "title": "Broadcasting on Random Trees: Martingale Methods and Error Bounds"
-    },
-    {
-      "id": "2606.23553",
-      "date": "2026-06-23",
-      "title": "Skewness tunes the small-drift record rate of random walks and L\u00e9vy flights"
-    },
-    {
-      "id": "2606.23025",
-      "date": "2026-06-23",
-      "title": "Spectral-capacitary bounds for homological recovery from reflected Brownian trajectories"
-    },
-    {
-      "id": "2606.21233",
-      "date": "2026-06-23",
-      "title": "Upper Bounds for the Largest Laplacian Eigenvalue of Simplicial Complexes"
-    },
-    {
-      "id": "2606.20977",
-      "date": "2026-06-23",
-      "title": "The Mathematics of Modeling the Future"
-    },
-    {
-      "id": "1802.03042",
-      "date": "2026-06-23",
-      "title": "Deep Hedging"
-    },
-    {
-      "id": "a_closed_form_solution_for_options_with_",
-      "date": "2026-06-23",
-      "title": "A Closed-Form Solution for Options with Stochastic Volatility"
-    },
-    {
-      "id": "0803.0929",
-      "date": "2026-06-23",
-      "title": "Graph Sparsification by Effective Resistances"
-    },
-    {
       "id": "2606.27875",
       "date": "2026-06-30",
       "title": "Dickman Approximation of Randomly Weighted Sums via Stein's Method"
@@ -489,6 +449,31 @@
       "id": "2609.13715",
       "date": "2026-09-15",
       "title": "Event-Time Order-Flow Memory, Operational-Time Impact, and Subordinated Market Observables"
+    },
+    {
+      "id": "2609.21890",
+      "date": "2026-09-22",
+      "title": "Local large deviations for triangles in sparse random graphs"
+    },
+    {
+      "id": "2609.24731",
+      "date": "2026-09-22",
+      "title": "A large deviation principle for the Gaussian beta ensemble in the high temperature regime"
+    },
+    {
+      "id": "2609.21687",
+      "date": "2026-09-22",
+      "title": "Coverage probability of the planar Brownian convex hull"
+    },
+    {
+      "id": "2609.22639",
+      "date": "2026-09-22",
+      "title": "Adapting Pairs Trading to Gambling Markets A Case Study of the U.S. Presidential Election"
+    },
+    {
+      "id": "2609.24117",
+      "date": "2026-09-22",
+      "title": "PAC-Bayesian Meta-Learning for Few-Shot Identification of Linear Dynamical Systems"
     }
   ]
 }
