@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "id": "2607.03984",
-      "date": "2026-07-07",
-      "title": "On Wilks' problem: Exact recursive formulas via Stein's method for the joint moments of disjoint principal minors of Wishart random matrices"
-    },
-    {
-      "id": "2607.02489",
-      "date": "2026-07-07",
-      "title": "Almost Supermartingale Extensions of Olivier's Theorem"
-    },
-    {
-      "id": "2607.00495",
-      "date": "2026-07-07",
-      "title": "Rank deficiency of Bernoulli random matrices for growing corank"
-    },
-    {
-      "id": "2607.04442",
-      "date": "2026-07-07",
-      "title": "Tightening the Score Matching Gap for Diffusion Models"
-    },
-    {
-      "id": "2607.05381",
-      "date": "2026-07-07",
-      "title": "What Does a Discrete Diffusion Model Learn?"
-    },
-    {
-      "id": "1402.4102",
-      "date": "2026-07-07",
-      "title": "Stochastic Gradient Hamiltonian Monte Carlo"
-    },
-    {
-      "id": "math/0504589",
-      "date": "2026-07-07",
-      "title": "The phase transition in inhomogeneous random graphs"
-    },
-    {
-      "id": "hypoelliptic_second_order_differential_e",
-      "date": "2026-07-07",
-      "title": "Hypoelliptic Second Order Differential Equations"
-    },
-    {
       "id": "2607.11076",
       "date": "2026-07-14",
       "title": "Smoluchowski-Kramers Approximation for Stochastic Differential Equations driven by Fractional Brownian Motion"
@@ -494,6 +454,36 @@
       "id": "regularity_properties_of_certain_familie",
       "date": "2026-09-29",
       "title": "Regularity Properties of Certain Families of Chance Variables"
+    },
+    {
+      "id": "2609.37939",
+      "date": "2026-10-06",
+      "title": "Semiparametric Bernstein-von Mises theorems from Stein's method"
+    },
+    {
+      "id": "2610.03846",
+      "date": "2026-10-06",
+      "title": "Probability flow ODEs in score-based and reflected diffusion models"
+    },
+    {
+      "id": "2609.40329",
+      "date": "2026-10-06",
+      "title": "Spectral theory for dynamical large deviations in non-Markov self-interacting processes"
+    },
+    {
+      "id": "2610.01115",
+      "date": "2026-10-06",
+      "title": "Certified Alpha Capacity: Statistical Arbitrage When Learning Takes Time"
+    },
+    {
+      "id": "2610.04390",
+      "date": "2026-10-06",
+      "title": "Gaussian Flow Dynamics: Simulation-Free Neural SDE Learning Beyond One-Time Marginals"
+    },
+    {
+      "id": "equation_of_state_calculations_by_fast_c",
+      "date": "2026-10-06",
+      "title": "Equation of State Calculations by Fast Computing Machines"
     }
   ]
 }
