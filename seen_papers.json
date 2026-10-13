@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "id": "2607.11076",
-      "date": "2026-07-14",
-      "title": "Smoluchowski-Kramers Approximation for Stochastic Differential Equations driven by Fractional Brownian Motion"
-    },
-    {
-      "id": "2607.06242",
-      "date": "2026-07-14",
-      "title": "Exponential mixing and Freidlin--Wentzell large deviation principle for Markov cocycles"
-    },
-    {
-      "id": "2607.09547",
-      "date": "2026-07-14",
-      "title": "High-Dimensional Interpolators Can Be Fragile: Heavy Tails and High-Dimensional Large Deviations"
-    },
-    {
-      "id": "2607.09390",
-      "date": "2026-07-14",
-      "title": "The largest Laplacian eigenvalue of induced-$K_{1,r}$-free graphs"
-    },
-    {
-      "id": "2607.10700",
-      "date": "2026-07-14",
-      "title": "An Extreme Value Perspective on Learning Stress Laws"
-    },
-    {
-      "id": "on_random_graphs_i",
-      "date": "2026-07-14",
-      "title": "On Random Graphs I"
-    },
-    {
-      "id": "1404.1392",
-      "date": "2026-07-14",
-      "title": "A short survey of Stein's method"
-    },
-    {
-      "id": "1505.05770",
-      "date": "2026-07-14",
-      "title": "Variational Inference with Normalizing Flows"
-    },
-    {
       "id": "2607.17048",
       "date": "2026-07-21",
       "title": "Concentration Inequalities for Incomplete U-statistics over Arbitrary Sampling Graphs"
@@ -484,6 +444,31 @@
       "id": "equation_of_state_calculations_by_fast_c",
       "date": "2026-10-06",
       "title": "Equation of State Calculations by Fast Computing Machines"
+    },
+    {
+      "id": "2610.10022",
+      "date": "2026-10-13",
+      "title": "Improved Berry-Esseen bounds for multivariate nonlinear statistics in convex distance"
+    },
+    {
+      "id": "2610.12814",
+      "date": "2026-10-13",
+      "title": "Large deviations for additive functionals of one-dimensional zero-range processes"
+    },
+    {
+      "id": "2610.13308",
+      "date": "2026-10-13",
+      "title": "Higher-Order Gaussian Approximations on Path Space for the Simple Symmetric Exclusion Process"
+    },
+    {
+      "id": "2610.08652",
+      "date": "2026-10-13",
+      "title": "Steering Diffusion Models to Rare Events with Sequential Monte Carlo"
+    },
+    {
+      "id": "2610.09984",
+      "date": "2026-10-13",
+      "title": "Extreme Binary Classification: Extreme Value Theory for Extreme Constraint on False Negative"
     }
   ]
 }
