@@ -1,31 +1,6 @@
 {
   "seen": [
     {
-      "id": "2607.19176",
-      "date": "2026-07-28",
-      "title": "Exponential Convergence of the Sinkhorn Algorithm for the Schr\u00f6dinger Bridge with Regime Switching"
-    },
-    {
-      "id": "2607.22878",
-      "date": "2026-07-28",
-      "title": "Clustering of large deviations in heavy-tailed moving averages: the catastrophe principle in the long-memory case"
-    },
-    {
-      "id": "2607.20373",
-      "date": "2026-07-28",
-      "title": "Embedding martingale diffusions as binary posteriors in sequential inference"
-    },
-    {
-      "id": "2607.22199",
-      "date": "2026-07-28",
-      "title": "From Score Approximation to Distribution Approximation in Score-Based Diffusion Models"
-    },
-    {
-      "id": "2607.23543",
-      "date": "2026-07-28",
-      "title": "Graphs with maximal Laplacian eigenvalue multiplicity"
-    },
-    {
       "id": "2608.00710",
       "date": "2026-08-04",
       "title": "Poisson approximations of the number of fixed points in random multiset permutations"
@@ -464,6 +439,36 @@
       "id": "0906.0510",
       "date": "2026-10-20",
       "title": "Random matrices: Universality of local eigenvalue statistics"
+    },
+    {
+      "id": "2610.31449",
+      "date": "2026-10-27",
+      "title": "Concentration inequalities for vector-valued martingales"
+    },
+    {
+      "id": "2610.29078",
+      "date": "2026-10-27",
+      "title": "Refined Cram\u00e9r-type moderate deviations by Stein's method under dependence"
+    },
+    {
+      "id": "2610.30352",
+      "date": "2026-10-27",
+      "title": "Optimal CLT error bounds in the second order Wasserstein metric via Stein's method for weakly dependent sequences"
+    },
+    {
+      "id": "2610.29605",
+      "date": "2026-10-27",
+      "title": "Improved Training of Strong Stochastic Flow Maps"
+    },
+    {
+      "id": "2610.32148",
+      "date": "2026-10-27",
+      "title": "Covariance-Informed Ensemble Score Filtering: Embedding Localized Covariance Geometry into Score-Based Transport"
+    },
+    {
+      "id": "on_the_movement_of_small_particles_suspe",
+      "date": "2026-10-27",
+      "title": "On the Movement of Small Particles Suspended in a Stationary Liquid"
     }
   ]
 }
