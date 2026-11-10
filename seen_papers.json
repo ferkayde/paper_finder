@@ -1,46 +1,6 @@
 {
   "seen": [
     {
-      "id": "2608.04531",
-      "date": "2026-08-11",
-      "title": "Discretization and Statistical Consistency of Functional Flow Matching"
-    },
-    {
-      "id": "2608.05039",
-      "date": "2026-08-11",
-      "title": "A large deviation principle for a class of weighted means of random variables which converges weakly to the Dickman distribution"
-    },
-    {
-      "id": "2608.05357",
-      "date": "2026-08-11",
-      "title": "High-Frequency Exponential-Utility Maximization under Fractional Brownian Motion"
-    },
-    {
-      "id": "2608.03925",
-      "date": "2026-08-11",
-      "title": "Option Pricing with Time-Changed Fractional Brownian Motion: A Fractional Variance Gamma Model"
-    },
-    {
-      "id": "2608.08770",
-      "date": "2026-08-11",
-      "title": "A Mean-Field Framework for Inference-Time Distributional Control of Diffusion Models"
-    },
-    {
-      "id": "monte_carlo_sampling_methods_using_marko",
-      "date": "2026-08-11",
-      "title": "Monte Carlo Sampling Methods Using Markov Chains and Their Applications"
-    },
-    {
-      "id": "2208.02492",
-      "date": "2026-08-11",
-      "title": "An invariance principle for the 1D KPZ equation"
-    },
-    {
-      "id": "martingales_and_arbitrage_in_multiperiod",
-      "date": "2026-08-11",
-      "title": "Martingales and Arbitrage in Multiperiod Securities Markets"
-    },
-    {
       "id": "2608.15874",
       "date": "2026-08-18",
       "title": "Self-normalised Bennett inequalities for Hilbert-valued martingales"
@@ -469,6 +429,36 @@
       "id": "2011.13456",
       "date": "2026-11-03",
       "title": "Score-Based Generative Modeling through Stochastic Differential Equations"
+    },
+    {
+      "id": "2611.08074",
+      "date": "2026-11-10",
+      "title": "Sharp moderate deviations and uniform Berry--Esseen bounds for Hotelling's $T^2$-statistic via Stein's method"
+    },
+    {
+      "id": "2611.10878",
+      "date": "2026-11-10",
+      "title": "Martingale representations without finite or well-defined mean"
+    },
+    {
+      "id": "2611.08743",
+      "date": "2026-11-10",
+      "title": "Entropic Martingale Optimal Transport with Wasserstein Relaxed Marginal Constraints"
+    },
+    {
+      "id": "2611.12022",
+      "date": "2026-11-10",
+      "title": "A Finite-Lag Markov Chain Model for Coarse-Graining Linear SDEs"
+    },
+    {
+      "id": "2611.10350",
+      "date": "2026-11-10",
+      "title": "Quenched large deviation estimates for skew product systems with the almost-sure fiber specification property"
+    },
+    {
+      "id": "1404.1392",
+      "date": "2026-11-10",
+      "title": "A short survey of Stein's method"
     }
   ]
 }
