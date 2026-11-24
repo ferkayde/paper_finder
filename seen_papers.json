@@ -1,31 +1,6 @@
 {
   "seen": [
     {
-      "id": "2608.19753",
-      "date": "2026-08-25",
-      "title": "Uniform large deviation principles for the stochastic heat equation over unbounded sets of initial data"
-    },
-    {
-      "id": "2608.20337",
-      "date": "2026-08-25",
-      "title": "Information on trajectories: martingales and random times"
-    },
-    {
-      "id": "2608.23401",
-      "date": "2026-08-25",
-      "title": "Extreme values and logarithm laws for toral translations"
-    },
-    {
-      "id": "2608.18237",
-      "date": "2026-08-25",
-      "title": "Sobolev Regularized Score Difference Estimation in Diffusion Models"
-    },
-    {
-      "id": "2608.21888",
-      "date": "2026-08-25",
-      "title": "Short-horizon mean reversion in cryptocurrency markets: a matched cross-market measurement"
-    },
-    {
       "id": "2608.26834",
       "date": "2026-09-01",
       "title": "Small-time annealed large deviations principle for one-dimensional diffusions in a random environment"
@@ -424,6 +399,36 @@
       "id": "1505.05770",
       "date": "2026-11-17",
       "title": "Variational Inference with Normalizing Flows"
+    },
+    {
+      "id": "2611.27802",
+      "date": "2026-11-24",
+      "title": "Brownian Twins of Fractional Diffusion Models"
+    },
+    {
+      "id": "2611.27929",
+      "date": "2026-11-24",
+      "title": "Optimal High-Dimensional Martingale CLTs over Rectangles"
+    },
+    {
+      "id": "2611.24132",
+      "date": "2026-11-24",
+      "title": "Large Deviations and Convexity Transition for the Multidimensional Elephant Random Walk"
+    },
+    {
+      "id": "2611.26568",
+      "date": "2026-11-24",
+      "title": "Optimal Control in Pairs Trading with Negative-Power Utility"
+    },
+    {
+      "id": "2611.27653",
+      "date": "2026-11-24",
+      "title": "Late-Time Dynamics of Flow Matching: Distance Geometry and Learning"
+    },
+    {
+      "id": "hypoelliptic_second_order_differential_e",
+      "date": "2026-11-24",
+      "title": "Hypoelliptic Second Order Differential Equations"
     }
   ]
 }
